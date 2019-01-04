@@ -172,8 +172,8 @@ header img.logo {
 	padding: 10px;
 }
 
-.round {
-	border-radius: 50%;
+.rounded {
+	border-radius: 25%;
 }
 
 .center {
