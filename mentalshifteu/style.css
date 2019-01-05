@@ -120,6 +120,13 @@ header h1 {
 	text-transform: uppercase;
 }
 
+#menu li[data-page-id="home"] {
+	background-image: url('favicon.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
 #menu li:not(.active):hover {
 	background-color: #001155;
 }
