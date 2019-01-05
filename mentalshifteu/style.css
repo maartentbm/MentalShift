@@ -230,6 +230,15 @@ img.logo-link {
 	margin: 1em;
 }
 
+div.show img {
+	max-height: 2em;
+	float: right;
+}
+
+div.show h3 {
+	margin-top: 0;
+}
+
 .page[data-page-id="partners"] > div {
 	/* overflow: hidden; */
 	/* max-height: 10em; */
@@ -239,6 +248,20 @@ img.logo-link {
 .page[data-page-id="partners"] img {
 	width: 10em;
 	max-height: 10em;
+}
+
+div.show {
+	margin-top: 2em;
+	padding: 1em;
+	border-radius: 1em;
+	background: rgba(250, 250, 150, 0.5);
+	overflow: hidden;
+	word-wrap: break-word;
+	color: #003080;
+}
+
+#previous-shows div.show {
+	background: rgba(180, 180, 180, 0.5);
 }
 
 footer {
