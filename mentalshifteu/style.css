@@ -162,14 +162,14 @@ header img.logo {
 	width: 250px;
 	max-width: 50%;
 	float: right;
-	padding-left: 10px;
+	margin-left: 10px;
 }
 
 .small-left {
 	width: 250px;
 	max-width: 50%;
 	float: left;
-	padding-right: 10px;
+	margin-right: 10px;
 }
 
 .large {
@@ -180,7 +180,7 @@ header img.logo {
 }
 
 .rounded {
-	border-radius: 25%;
+	border-radius: 50%;
 }
 
 .center {
