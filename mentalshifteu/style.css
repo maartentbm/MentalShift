@@ -28,7 +28,7 @@ body {
 
 body.background-pic {
     background-color: #c1c1c1;
-    background-image: url('background-pic.png');
+    background-image: url('background-pic.jpg');
     background-position: left top;
     background-size: cover;
     background-repeat: no-repeat;
