@@ -84,9 +84,18 @@ $(function () {
 		$divFut.children('div.show').sort(compareDatesFut).appendTo($divFut);
 	}
 
+	var showPlannedContent = function () {
+		var now = new Date();
+		$('[data-hide-until]').each(function (i, el) {
+			var $el = $(el);
+			new Date($el.data('hide-until')) < now && $el.show();
+		});
+	}
+
 	setPageFromHash();
 	setStickyMenu();
 	splitAndSortEvents();
+	showPlannedContent();
 
 	$('.set-page[data-page-id]').click(setPage);
 	$(window).on('hashchange', setPageFromHash);
