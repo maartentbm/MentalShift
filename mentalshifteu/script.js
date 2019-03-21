@@ -11,7 +11,7 @@ $(function () {
 		$('.active').removeClass('active');
 		$('[data-page-id=' + pageId + ']').addClass('active');
 		ignoreHashChange = true;
-		window.location.hash = '#' + pageId;
+		window.location.hash = (pageId == 'home' ? '' : pageId);
 		setTimeout(function () {
 			ignoreHashChange = false;
 		}, 200);
