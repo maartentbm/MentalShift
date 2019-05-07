@@ -88,7 +88,7 @@ $(function () {
 		var now = new Date();
 		$('[data-hide-until]').each(function (i, el) {
 			var $el = $(el);
-			new Date($el.data('hide-until')) < now && $el.show();
+			new Date($el.data('hide-until')) < now && $el.show() || $el.hide();
 		});
 	}
 
