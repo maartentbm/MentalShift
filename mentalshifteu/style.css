@@ -142,7 +142,7 @@ content {
 	flex-basis: auto; /* IE */
 	display: block;
 	padding: 40px 15px 25px 20px;
-	background: rgba(0, 48, 128, 0.30);
+	background: rgba(0, 48, 128, 0.45);
 }
 
 content a {
