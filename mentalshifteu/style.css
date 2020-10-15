@@ -175,6 +175,10 @@ header img.logo {
 	margin-right: 10px;
 }
 
+.text-right {
+	text-align: right;
+}
+
 .large {
 	width: 540px;
 	height: auto;
