@@ -161,17 +161,26 @@ header img.logo {
 	max-height: 8em;
 }
 
-.small-right {
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.small {
 	width: 250px;
 	max-width: 50%;
+	margin-bottom: 10px;
+}
+
+.right {
 	float: right;
+	clear: right;
 	margin-left: 10px;
 }
 
-.small-left {
-	width: 250px;
-	max-width: 50%;
+.left {
 	float: left;
+	clear: left;
 	margin-right: 10px;
 }
 
@@ -181,8 +190,11 @@ header img.logo {
 
 .large {
 	width: 540px;
-	height: auto;
-	max-width: 100%;
+	padding: 10px;
+}
+
+.larger {
+	width: 800px;
 	padding: 10px;
 }
 
