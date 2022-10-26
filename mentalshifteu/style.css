@@ -29,7 +29,7 @@ body {
 body.background-pic {
 	background-color: #c1c1c1;
 	background-image: url('background-pic.jpg');
-	background-position: left top;
+	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -305,7 +305,7 @@ div.show a {
 }
 
 #previous-shows div.show {
-	background: rgba(180, 180, 180, 0.5);
+	background: rgba(180, 180, 180, 0.7);
 }
 
 footer {
